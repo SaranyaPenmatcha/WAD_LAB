@@ -1,0 +1,20 @@
+<html>  
+<head>   
+<h1 align="center"> Javascript Events </h1>  
+</head>  
+<body>  
+<h2> Enter here(focus event)</h2>  
+<input type="text" id="input1" onfocus="focusevent()"/>  
+<h2> Enter something here(key down event)</h2>  
+<input type="text" id="input1" onkeydown="keydownevent()"/> 
+</br>  
+<body onload="window.alert('Page loaded');">   
+<script language="Javascript" type="text/Javascript"> 
+    function focusevent()
+    {
+        document.getElementById("input1").style.background="pink";
+    }
+</script>  
+<p onmouseover="mouseoverevent()">Keep the courser moving</p>  
+</body>  
+</html>  
